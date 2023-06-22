@@ -2,19 +2,24 @@ Fat 12
 
 нужный файл:
 
-![Снимок экрана 2023-06-22 в 15.33.03](image/Снимок экрана 2023-06-22 в 15.33.03.png)
-
-
+<p align="center">
+      <img src="https://github.com/Wedlec129/fat_ntfs_FILLE/blob/main/image/Снимок%20экрана%202023-06-22%20в%2015.33.03.png" width="726">
+</p>
 
 1)hexedit -s fat.img
 
-![Снимок экрана 2023-06-22 в 15.34.50](image/Снимок экрана 2023-06-22 в 15.34.50.png)
-
+<p align="center">
+      <img src="https://github.com/Wedlec129/fat_ntfs_FILLE/blob/main/image/Снимок%20экрана%202023-06-22%20в%2015.34.50.png" width="726">
+</p>
 
 
 2) ищем нужную папку перыую(ручками хуярим)
 
-   ![Снимок экрана 2023-06-22 в 15.35.48](/Users/wedlec/Library/Application Support/typora-user-images/Снимок экрана 2023-06-22 в 15.35.48.png)
+
+
+<p align="center">
+      <img src="https://github.com/Wedlec129/fat_ntfs_FILLE/blob/main/image/Снимок%20экрана%202023-06-22%20в%2015.35.48.png" width="726">
+</p>
 
 там короч атрибут сука 10 это папка ебанная
 
@@ -30,7 +35,10 @@ Fat 12
 
 0x200 * 4 + 4 * 6 * 512 + 512 * 32  = 0x7800
 
-![Снимок экрана 2023-06-22 в 15.38.30](/Users/wedlec/Library/Application Support/typora-user-images/Снимок экрана 2023-06-22 в 15.38.30.png)
+
+<p align="center">
+      <img src="https://github.com/Wedlec129/fat_ntfs_FILLE/blob/main/image/Снимок%20экрана%202023-06-22%20в%2015.38.30.png" width="726">
+</p>
 
 благодаря области данных можем перейти в нужную папку 
 
@@ -38,13 +46,21 @@ Fat 12
 
 0x7800 + (0x53 - 2) * 512 * 1 = 0x11a00 
 
-![Снимок экрана 2023-06-22 в 15.40.02](/Users/wedlec/Library/Application Support/typora-user-images/Снимок экрана 2023-06-22 в 15.40.02.png)
+<p align="center">
+      <img src="https://github.com/Wedlec129/fat_ntfs_FILLE/blob/main/image/Снимок%20экрана%202023-06-22%20в%2015.40.02.png" width="726">
+</p>
+
 
 это короче сама паппка со всеми данными рот их ебал
 
 и теперь нам нужен тот файл 
 
-4)![Снимок экрана 2023-06-22 в 15.40.57](/Users/wedlec/Library/Application Support/typora-user-images/Снимок экрана 2023-06-22 в 15.40.57.png)
+4)
+
+
+<p align="center">
+      <img src="https://github.com/Wedlec129/fat_ntfs_FILLE/blob/main/image/Снимок%20экрана%202023-06-22%20в%2015.40.57.png" width="726">
+</p>
 
 нашли нужный файл так как умеем работать ручками
 
@@ -58,7 +74,12 @@ Fat 12
 
 0x800 + 0x58*1.5 = 0x884 
 
-![Снимок экрана 2023-06-22 в 15.45.27](/Users/wedlec/Library/Application Support/typora-user-images/Снимок экрана 2023-06-22 в 15.45.27.png)
+
+
+
+<p align="center">
+      <img src="https://github.com/Wedlec129/fat_ntfs_FILLE/blob/main/image/Снимок%20экрана%202023-06-22%20в%2015.45.27.png" width="726">
+</p>
 
 0х73
 
@@ -68,7 +89,10 @@ Fat 12
 
 у нас получается не ровно потому берём правую часть
 
-![Снимок экрана 2023-06-22 в 15.49.58](/Users/wedlec/Library/Application Support/typora-user-images/Снимок экрана 2023-06-22 в 15.49.58.png)
+
+<p align="center">
+      <img src="https://github.com/Wedlec129/fat_ntfs_FILLE/blob/main/image/Снимок%20экрана%202023-06-22%20в%2015.49.58.png" width="726">
+</p>
 
  мы берём правую часть
 
