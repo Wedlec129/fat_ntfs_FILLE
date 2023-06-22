@@ -2,13 +2,13 @@ Fat 12
 
 нужный файл:
 
-![Снимок экрана 2023-06-22 в 15.33.03](/Users/wedlec/Library/Application Support/typora-user-images/Снимок экрана 2023-06-22 в 15.33.03.png)
+![Снимок экрана 2023-06-22 в 15.33.03](image/Снимок экрана 2023-06-22 в 15.33.03.png)
 
 
 
 1)hexedit -s fat.img
 
-![Снимок экрана 2023-06-22 в 15.34.50](/Users/wedlec/Library/Application Support/typora-user-images/Снимок экрана 2023-06-22 в 15.34.50.png)
+![Снимок экрана 2023-06-22 в 15.34.50](image/Снимок экрана 2023-06-22 в 15.34.50.png)
 
 
 
